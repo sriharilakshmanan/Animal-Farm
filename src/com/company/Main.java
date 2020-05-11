@@ -49,7 +49,7 @@ public class Main {
             zombieAnimal.eat(lion);
             zombieAnimal.eat(zombieAnimal);
 
-            lion.eat(grassHopper);
+//            lion.eat(grassHopper);
 //            lion.eat(grass);
 //            monkey.eat(lion);
 //            grassHopper.eat(lion);

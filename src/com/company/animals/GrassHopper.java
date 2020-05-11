@@ -2,7 +2,7 @@ package com.company.animals;
 
 import com.company.food.Food;
 
-public class GrassHopper implements Insect {
+public class GrassHopper implements Insect<Food> {
     @Override
     public void makeNoise() {
         System.out.println("GrassHopper Chirps");

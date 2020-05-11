@@ -4,7 +4,7 @@ import com.company.food.Banana;
 import com.company.food.Food;
 import com.company.food.Grass;
 
-public class Monkey implements Animal <Food> {
+public class Monkey implements NotInsect <Food> {
     @Override
     public void makeNoise() {
         System.out.println("Monkey Whoops!");
